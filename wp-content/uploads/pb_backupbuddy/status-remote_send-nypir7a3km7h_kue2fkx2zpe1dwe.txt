@@ -1,0 +1,113 @@
+{"event":"details","time":1667853280,"u":"28","run":"0.71","mem":"84.08","data":"----- Initiating master send function for BackupBuddy v8.8.0."}
+{"event":"details","time":1667853280,"u":"28","run":"0.71","mem":"84.08","data":"Basename file: `backup-www_cartunited_com-2022_11_07-08_09pm-db-ohnfbqso2c.zip`. Post-send deletion: Yes"}
+{"event":"details","time":1667853280,"u":"28","run":"0.71","mem":"84.08","data":"Created fileoptions lock file `send-nypir7a3km7h.txt.lock` with ID: 63696be044a7f5.75701773."}
+{"event":"details","time":1667853280,"u":"28","run":"0.71","mem":"84.08","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1667853280,"u":"28","run":"0.71","mem":"84.09","data":"Fileoptions `send-nypir7a3km7h.txt` saved. 1120 bytes written."}
+{"event":"details","time":1667853280,"u":"28","run":"0.71","mem":"84.08","data":"Initializing destination."}
+{"event":"details","time":1667853280,"u":"31","run":"0.75","mem":"84.08","data":"Loading destination init file `\/nas\/content\/live\/cartunited\/wp-content\/plugins\/backupbuddy\/destinations\/dropbox2\/init.php`."}
+{"event":"details","time":1667853280,"u":"35","run":"0.78","mem":"84.16","data":"Destination init loaded."}
+{"event":"details","time":1667853280,"u":"41","run":"0.84","mem":"84.20","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1667853280,"u":"41","run":"0.84","mem":"84.20","data":"Applying destination-specific defaults."}
+{"event":"details","time":1667853280,"u":"41","run":"0.84","mem":"84.20","data":"Applying global destination defaults."}
+{"event":"details","time":1667853280,"u":"41","run":"0.84","mem":"84.20","data":"Calling destination-specific send method `pb_backupbuddy_destination_dropbox2::send`."}
+{"event":"details","time":1667853280,"u":"41","run":"0.84","mem":"84.20","data":"Dropbox2 send function started. Remote send id: `nypir7a3km7h`."}
+{"event":"details","time":1667853280,"u":"41","run":"0.85","mem":"84.49","data":"Connected to Dropbox."}
+{"event":"details","time":1667853280,"u":"41","run":"0.85","mem":"84.49","data":"Opening file `backup-www_cartunited_com-2022_11_07-08_09pm-db-ohnfbqso2c.zip` to send."}
+{"event":"details","time":1667853280,"u":"41","run":"0.85","mem":"84.49","data":"Dropbox send not set to be chunked."}
+{"event":"details","time":1667853280,"u":"41","run":"0.85","mem":"84.49","data":"About to put file `backup-www_cartunited_com-2022_11_07-08_09pm-db-ohnfbqso2c.zip` (11.43 MB) to Dropbox (PHP 5.3+)."}
+{"event":"details","time":1667853280,"u":"41","run":"0.85","mem":"84.49","data":"Send Directory: \/Montly Internal sites backup"}
+{"event":"details","time":1667853280,"u":"44","run":"0.87","mem":"84.52","data":"Chunk mode."}
+{"event":"details","time":1667853280,"u":"46","run":"0.90","mem":"88.57","data":"chunkedUploadStart start."}
+{"event":"details","time":1667853280,"u":"46","run":"0.90","mem":"88.57","data":"_chunkedUpload start."}
+{"event":"details","time":1667853280,"u":"46","run":"0.90","mem":"88.59","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/start?`."}
+{"event":"details","time":1667853280,"u":"48","run":"0.91","mem":"88.61","data":"About to exec in _chunkedUpload."}
+{"event":"details","time":1667853280,"u":"48","run":"0.91","mem":"88.62","data":"Curl version: `7.58.0`"}
+{"event":"details","time":1667853280,"u":"48","run":"0.91","mem":"88.62","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1667853281,"u":"52","run":"1.95","mem":"88.61","data":"chunkedUploadStart response: `Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => {\"session_id\": \"pid_upload_session:ABIFm0c5_slD1xV0pe4vS_B8o37RvBcG31UgDvDu7LmrdguS\"}\n)\n`."}
+{"event":"details","time":1667853281,"u":"52","run":"1.95","mem":"88.61","data":"_chunkedUploadCheckForOffsetCorrection start."}
+{"event":"details","time":1667853281,"u":"52","run":"1.95","mem":"88.61","data":"_chunkedUploadParse200Response start."}
+{"event":"details","time":1667853281,"u":"52","run":"1.95","mem":"88.61","data":"_chunkedUploadParse200Response finish."}
+{"event":"details","time":1667853281,"u":"52","run":"1.95","mem":"88.61","data":"Finished chunkedUploadStart."}
+{"event":"details","time":1667853281,"u":"53","run":"1.96","mem":"88.61","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1667853281,"u":"53","run":"1.96","mem":"88.61","data":"chunkedUploadContinue start to ID `pid_upload_session:ABIFm0c5_slD1xV0pe4vS_B8o37RvBcG31UgDvDu7LmrdguS`, offset `4194304`."}
+{"event":"details","time":1667853281,"u":"53","run":"1.96","mem":"88.62","data":"_chunkedUpload continue."}
+{"event":"details","time":1667853281,"u":"53","run":"1.96","mem":"88.62","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1667853281,"u":"53","run":"1.96","mem":"88.62","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1667853281,"u":"53","run":"1.96","mem":"88.62","data":"Curl version: `7.58.0`"}
+{"event":"details","time":1667853281,"u":"53","run":"1.96","mem":"88.62","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1667853283,"u":"04","run":"3.47","mem":"88.62","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1667853283,"u":"04","run":"3.47","mem":"88.62","data":"Next byte offset calculated by client lib: `8388608`."}
+{"event":"details","time":1667853283,"u":"04","run":"3.48","mem":"88.62","data":"Call chunkedUploadContinue."}
+{"event":"details","time":1667853283,"u":"04","run":"3.48","mem":"88.62","data":"chunkedUploadContinue start to ID `pid_upload_session:ABIFm0c5_slD1xV0pe4vS_B8o37RvBcG31UgDvDu7LmrdguS`, offset `8388608`."}
+{"event":"details","time":1667853283,"u":"04","run":"3.48","mem":"88.62","data":"_chunkedUpload continue."}
+{"event":"details","time":1667853283,"u":"04","run":"3.48","mem":"88.62","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/append_v2?`."}
+{"event":"details","time":1667853283,"u":"05","run":"3.48","mem":"88.62","data":"About to exec in _chunkedUploadContinue."}
+{"event":"details","time":1667853283,"u":"05","run":"3.48","mem":"88.62","data":"Curl version: `7.58.0`"}
+{"event":"details","time":1667853283,"u":"05","run":"3.48","mem":"88.63","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1667853284,"u":"78","run":"5.22","mem":"88.62","data":"Back in chunkedUploadContinue from _chunkedUploadContinue. Response: Dropbox\\HttpResponse Object\n(\n    [statusCode] => 200\n    [body] => null\n)\n"}
+{"event":"details","time":1667853284,"u":"78","run":"5.22","mem":"88.62","data":"Next byte offset calculated by client lib: `11987720`."}
+{"event":"details","time":1667853284,"u":"78","run":"5.22","mem":"88.62","data":"Call chunkedUploadFinish."}
+{"event":"details","time":1667853284,"u":"78","run":"5.22","mem":"88.62","data":"chunkedUploadFinish start."}
+{"event":"details","time":1667853284,"u":"78","run":"5.22","mem":"88.62","data":"Prepping params for chunk finish. Session: `pid_upload_session:ABIFm0c5_slD1xV0pe4vS_B8o37RvBcG31UgDvDu7LmrdguS`. Offset: `11987720`."}
+{"event":"details","time":1667853284,"u":"78","run":"5.22","mem":"88.62","data":"Curl URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/finish`."}
+{"event":"details","time":1667853284,"u":"78","run":"5.22","mem":"88.62","data":"URL: `https:\/\/content.dropboxapi.com\/2\/files\/upload_session\/finish`. Access token: `i2ej1_aOUdgAAAAAAAAAARHrxgGLBJr6jzIEYj9T9r4evSUyTbtR-7w46K7cvfTN`."}
+{"event":"details","time":1667853284,"u":"78","run":"5.22","mem":"88.62","data":"Putting params in header. Header added (length=289): `Dropbox-API-Arg: {\"cursor\":{\"session_id\":\"pid_upload_session:ABIFm0c5_slD1xV0pe4vS_B8o37RvBcG31UgDvDu7LmrdguS\",\"offset\":11987720},\"commit\":{\"path\":\"\\\/Montly Internal sites backup\\\/backup-www_cartunited_com-2022_11_07-08_09pm-db-ohnfbqso2c.zip\",\"mode\":\"add\",\"autorename\":true,\"mute\":false}}`."}
+{"event":"details","time":1667853284,"u":"78","run":"5.22","mem":"88.62","data":"Content type: `application\/octet-stream`."}
+{"event":"details","time":1667853284,"u":"79","run":"5.22","mem":"88.63","data":"Curl version: `7.58.0`"}
+{"event":"details","time":1667853284,"u":"79","run":"5.22","mem":"88.63","data":"About to exec in Curl.php curl_exec(). contentType: `application\/octet-stream`."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.61","data":"Loading fileoptions data instance #14..."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.61","data":"Created fileoptions lock file `send-nypir7a3km7h.txt.lock` with ID: 63696be6d6e7d3.54136300."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.61","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.61","data":"Fileoptions data loaded."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.61","data":"Dropbox (non-chunked) transfer stats - Sent: `11.43 MB`, Transfer duration: `6.45980191231`, Speed: `1.77 MB\/sec`."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.62","data":"Fileoptions `send-nypir7a3km7h.txt` saved. 1140 bytes written."}
+{"event":"message","time":1667853286,"u":"88","run":"7.31","mem":"84.61","data":"Success sending `backup-www_cartunited_com-2022_11_07-08_09pm-db-ohnfbqso2c.zip` to Dropbox!"}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.61","data":"Dropbox file limit in place. Proceeding with enforcement."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.61","data":"Curl URL: `https:\/\/api.dropbox.com\/2\/files\/list_folder`."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.62","data":"URL: `https:\/\/api.dropbox.com\/2\/files\/list_folder`. Access token: `i2ej1_aOUdgAAAAAAAAAARHrxgGLBJr6jzIEYj9T9r4evSUyTbtR-7w46K7cvfTN`."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.62","data":"Putting params in post field."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.62","data":"Content type: `application\/json`."}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.62","data":"Curl version: `7.58.0`"}
+{"event":"details","time":1667853286,"u":"88","run":"7.31","mem":"84.62","data":"About to exec in Curl.php curl_exec(). contentType: `application\/json`."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.14","data":"Dropbox backup file count of `11` exceeds limit of `10`."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.14","data":"Initializing destination."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.14","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.14","data":"Applying destination-specific defaults."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.15","data":"Applying global destination defaults."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.15","data":"Dropbox2 Delete Function Started."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.15","data":"Connected to Dropbox."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.15","data":"Curl URL: `https:\/\/api.dropbox.com\/2\/files\/delete_v2`."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.15","data":"URL: `https:\/\/api.dropbox.com\/2\/files\/delete_v2`. Access token: `i2ej1_aOUdgAAAAAAAAAARHrxgGLBJr6jzIEYj9T9r4evSUyTbtR-7w46K7cvfTN`."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.15","data":"Putting params in post field."}
+{"event":"details","time":1667853287,"u":"85","run":"8.29","mem":"85.15","data":"Content type: `application\/json`."}
+{"event":"details","time":1667853287,"u":"86","run":"8.29","mem":"85.16","data":"Curl version: `7.58.0`"}
+{"event":"details","time":1667853287,"u":"86","run":"8.29","mem":"85.16","data":"About to exec in Curl.php curl_exec(). contentType: `application\/json`."}
+{"event":"details","time":1667853288,"u":"73","run":"9.17","mem":"85.15","data":"Initializing destination."}
+{"event":"details","time":1667853288,"u":"73","run":"9.17","mem":"85.15","data":"Initialized `dropbox2` destination."}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.15","data":"Applying destination-specific defaults."}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.15","data":"Applying global destination defaults."}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.15","data":"Attempting to delete corresponding .dat files using delete method."}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.15","data":"Dropbox2 Delete Function Started."}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.16","data":"Connected to Dropbox."}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.16","data":"Curl URL: `https:\/\/api.dropbox.com\/2\/files\/delete_v2`."}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.16","data":"URL: `https:\/\/api.dropbox.com\/2\/files\/delete_v2`. Access token: `i2ej1_aOUdgAAAAAAAAAARHrxgGLBJr6jzIEYj9T9r4evSUyTbtR-7w46K7cvfTN`."}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.16","data":"Putting params in post field."}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.16","data":"Content type: `application\/json`."}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.16","data":"Curl version: `7.58.0`"}
+{"event":"details","time":1667853288,"u":"74","run":"9.17","mem":"85.16","data":"About to exec in Curl.php curl_exec(). contentType: `application\/json`."}
+{"event":"error","time":1667853289,"u":"20","run":"9.63","mem":"85.18","data":"Error #94349843b. Unable to delete file `\/Montly Internal sites backup\/backup-www_cartunited_com-2022_10_07-08_13am-db-w3pqstvr7f.dat`. Details: `Unexpected HTTP status 409\n{\"error_summary\": \"path_lookup\/not_found\/\", \"error\": {\".tag\": \"path_lookup\", \"path_lookup\": {\".tag\": \"not_found\"}}}`."}
+{"event":"details","time":1667853289,"u":"20","run":"9.63","mem":"85.16","data":"Deleted excess Dropbox file: `backup-www_cartunited_com-2022_10_07-08_13am-db-w3pqstvr7f.zip`"}
+{"event":"details","time":1667853289,"u":"20","run":"9.63","mem":"85.16","data":"All files sent."}
+{"event":"details","time":1667853289,"u":"20","run":"9.63","mem":"84.63","data":"Completed send function. Success."}
+{"event":"details","time":1667853289,"u":"20","run":"9.63","mem":"84.63","data":"Loading fileoptions data instance #16..."}
+{"event":"details","time":1667853289,"u":"20","run":"9.63","mem":"84.63","data":"Created fileoptions lock file `send-nypir7a3km7h.txt.lock` with ID: 63696be931d2e3.29679275."}
+{"event":"details","time":1667853289,"u":"20","run":"9.63","mem":"84.63","data":"Fileoptions load using 0 MB of memory."}
+{"event":"details","time":1667853289,"u":"20","run":"9.63","mem":"84.63","data":"Fileoptions data loaded."}
+{"event":"details","time":1667853289,"u":"20","run":"9.63","mem":"84.63","data":"Post-send deletion enabled."}
+{"event":"details","time":1667853289,"u":"20","run":"9.63","mem":"84.63","data":"Performing post-send deletion since transfer succeeded."}
+{"event":"details","time":1667853289,"u":"20","run":"9.63","mem":"84.63","data":"Deleting local file `\/nas\/content\/live\/cartunited\/wp-content\/uploads\/backupbuddy_backups\/backup-www_cartunited_com-2022_11_07-08_09pm-db-ohnfbqso2c.zip`."}
+{"event":"details","time":1667853289,"u":"20","run":"9.64","mem":"84.71","data":"Deleted local file after successful remote destination send based on settings."}
+{"event":"archiveDeleted","time":1667853289,"u":"20","run":"9.64","mem":"84.71","data":""}
+{"event":"details","time":1667853289,"u":"20","run":"9.64","mem":"84.71","data":"Sending finished destination send email notification."}
+{"event":"details","time":1667853289,"u":"20","run":"9.64","mem":"84.73","data":"Sending email schedule notification. Subject: `BackupBuddy File Send Finished - https:\/\/www.cartunited.com`; recipient(s): `sudeepgoyal@ebizontel.com,abhinav.bhatnagar@ebizontel.com,karamjeet.singh@ebizontel.com`."}
+{"event":"details","time":1667853290,"u":"28","run":"10.71","mem":"85.53","data":"Ending send() function pass."}
